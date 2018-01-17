@@ -11,3 +11,8 @@ Note: If you create a pull request, and then want to make further changes before
 An additional note.  These files have an extension of .md which stands for the markdown style of text formatting.  This is not something that you need to be worried about, as most of the text editing you would do will work just fine.
 If you want to see what the options are, or want to find how to format something in a specific way, this is a handy visual guide to the formatting styles: 
 [examples of markdown formatting](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+==========================
+
+We started with Git and GitHub.
+Then we went to chapter 2.
