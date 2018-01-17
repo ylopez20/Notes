@@ -29,3 +29,17 @@ These are named places to hold information in your program.  The informaiton can
 
 Each variable is like a pad of sticky notes.  You can write on the front sheet, and when you want, you can rip that sheet off, and write something (possibly different) on the newly exposed sheet.  The variable name holds the information on the currently showing sticky note.
 
+#### Operators
+You are familar with multiple binary operators (meaingin they work on two items at once).  Multiplication * , Division / , Addition + , Subtraction - .
+
+Does order mater with the operands of an operator?  (the order of the items that are passed to the operator?)
+
+If we are only able to use integers for the above operations, what piece of information are we loosing when we store the answer back to an integer?  The operator to get this info with one step is the % operator.
+
+We have a special operator, it is the assignment operator.  This is the operator that removes the top sheet of the stickynote pad and writes a value on the next sheet.  In Java we will use a single equals sign to indicate this.  In your book they use a left pointing arrow in pseudocode to represent this.  You can probably guess that a variable must be on the left side (the sticky note pad we are going to place a value on for later use), and a value of the appropriate type on the right hand side.
+
+if all letters in the next lines are integers, is the folowing valid, why:
+a = b + c
+g = h / i
+r + s = t * u
+
