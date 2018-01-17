@@ -14,3 +14,12 @@ If the steps you put together will lead to a solution to the problem, then you h
 How do you know if it leads to a solution?  You have to know what the solution looks like before you can figure out how to get there.
   * Planning a trip: where to, for how long, for what goal?
   
+Problem:
+  You are part of an organization where the members do not see each other all that often, however some members are willing to meet up.  You know who these pairs are.  How long will it take you to get a message out to all the members about the next meeting, if you want the message to be hand delivered to everyone?
+  * Graph
+  * time
+  * plan
+  
+  Start this with pseudocode
+  
+##Variables
