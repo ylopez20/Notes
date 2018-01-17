@@ -8,7 +8,9 @@ We will look at two methods to express your approach to solving a problem.
   * rectangles for steps in the solution
   * diamonds for decisions that need to be made
   * arrows going from one shape to another to direct the flow of the answer.
-  
+
+
+#### Algorithms 
 If the steps you put together will lead to a solution to the problem, then you have an algorithm for it.
 
 How do you know if it leads to a solution?  You have to know what the solution looks like before you can figure out how to get there.
@@ -22,4 +24,8 @@ Problem:
   
   Start this with pseudocode
   
-## Variables
+#### Variables
+These are named places to hold information in your program.  The informaiton can be of different types: a char, a sequenc of characters (String), an integer, a number with a decimal (Float), a list, a dictionary, a grid of one of these types.
+
+Each variable is like a pad of sticky notes.  You can write on the front sheet, and when you want, you can rip that sheet off, and write something (possibly different) on the newly exposed sheet.  The variable name holds the information on the currently showing sticky note.
+
