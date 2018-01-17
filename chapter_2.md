@@ -13,7 +13,7 @@ We will look at two methods to express your approach to solving a problem.
 #### Algorithms 
 If the steps you put together will lead to a solution to the problem, then you have an algorithm for it.
 
-How do you know if it leads to a solution?  You have to know what the solution looks like before you can figure out how to get there.
+How do you know if it leads to a solution?  You have to know what the solution looks like before you can figure out how to get there.  ( You also have to know what things can make up the algorithm (the tools) before you can construct it.)
   * Planning a trip: where to, for how long, for what goal?
   
 Problem:
@@ -45,6 +45,29 @@ if all letters in the next lines are integers, is the folowing valid, why:
 
 There are other operators that we will talk about as the class progresses.
 
+##### testing operators
+There are operators that return true or false instead of a numeric value.  Many of these you are already familar with, and most are binary (take two operands):
+  * <     less than
+  * >     greater than
+  * <=    less than or equal to
+  * >=    greater than  or equal to
+  * ==    equal to
+  * !=    not equal to
+  
+You can also combine logic tests together with the operators:
+  * &&    'and' returns true if the items on either side are both true
+  * ||    'or'  returns ture if at least one of the items on it's sides is true.
+  
+Finally our first unary operator (meaning it only takes one operand)
+  * !     'not' returns false if the operand following it is ture, and returns true if that operand is false
+  
+#### Tracing a program
+This is a skill that helps you track down what is happening during a program to find why it is not giving you the result you expected it to.
+
+We will start by doing this on paper, and as we get towards coding, we will learn about some of the tools on the computer to aid in this process.
+  
+
+
 #### Input and Output
 A computer is a great tool, and it can do a lot.  However if we can't communicate with it, it does us little good.
 
@@ -55,7 +78,7 @@ For the sake of flowcharts, you can use the words input and output (print) for t
 #### Logic Steps  (Flow of Control)
 We can string these above steps together, but we need ways to only do the steps some of the time or to do a few of them many times.
 
-If statement:
+##### If structure:
   * if                 do this poriton of code only if the test is true
   * if - else          same as the if, but has a second porion of code that is followed only if the test is not true.
   * if - else if       Same as if-else, however only runs the second poriton if the first test if false and a second is true.
@@ -63,4 +86,21 @@ If statement:
 How to determin which to use?  Partially practice, and being *lazy*.
 
 Write out an example of a program that gives an indication of a kid of what they should wear based upon the tempature.
+
+##### Loop structure:
+  * while
+  * do - while
+  * for
+
+What does the flow chart diagram look like for each of these?
+
+Notice that each has a test in it.
+
+What would our algorithm look like to sum the numbers from 1 to 50?  from 1 to a number entered by a user?
+
+How do we approach stoping a loop?  The most common is to use a variable to count up from 0 and test if it is less than a vlue equal to the number of times you want the loop to hapen.
+
+The book describes this and two other methods of using a loops test to stop the computer from going into the loop again.
+
+##### Combining these control structures:
 
