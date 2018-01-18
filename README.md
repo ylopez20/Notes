@@ -1,7 +1,7 @@
 # notes
 Notes from the class, started by the professor and updated by the class
 
-These fiels are text files and you are welcome to edit them.  Please be careful as they are a resource for the entire class.
+These files are text files and you are welcome to edit them.  Please be careful as they are a resource for the entire class.
 
 In making changes, feel free to fix misspellings, add information/clarification.  You can also reorganize, however please be aware that not everyone will see things the same way.  My suggestion when making a change is to make the change in your copy of this repository, and then do a pull request.  Do not come to this repository and pull it in, but instead use that pull request as an indication of what your proposal is, and askfor feedback on it (you can add comments in any of the pull requests.)  Once others have reviewed and given feedback about the proposed change, you ahve made further changes, and the people who choose to take part in the conversation are happy with it, then commit the pull request to the class repo.
 
